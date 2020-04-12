@@ -1,6 +1,6 @@
 # date_vec
 
-The function outputs a character vector of length defined in total_days, each element representing
+R function that outputs a character vector of length defined in total_days, each element representing
 a date, starting from the day, month and year chosen by the user, with a particular format also 
 defined by the user. This function may be useful for time series analyses (e.g. to get the labels of the x axis for plotting).
 
