@@ -51,7 +51,7 @@ date_vec <- function(day = 1, month = 1, year = 2020, total_days = 40, format = 
     }
     else if(format == "mdy")
     {
-      vec[i] <- paste(zero, tmp_month, sep, zero2, tmp_day, sep, tmp_year, sep = "")
+      vec[i] <- paste(zero, tmp_month, sep, zero, tmp_day, sep, tmp_year, sep = "")
     }
     else
     {
